@@ -1,0 +1,45 @@
+# ── Word documents ────────────────────────────────────────────────
+*.doc
+*.docx
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────
+.venv/
+venv/
+env/
+*.env
+healthcare-eda-env/
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files ────────────────────────────────────────────────────
+data/raw/
+data/*.csv
+
+# ── Reports / outputs ─────────────────────────────────────────────
+reports/plots/
+reports/anomalies.csv
+reports/analysis_report.txt
+reports/segment_profile.csv
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
